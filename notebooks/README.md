@@ -99,8 +99,6 @@ To analyze user engagement based on session frequency, duration, and data traffi
 3. Follow the instructions within the notebooks to execute each section.
 4. Visualizations will be displayed inline within the notebook, and key insights will be printed as outputs.
 
----
-
 ## Key Insights
 
 - **User Overview Analysis** (Task 1) identified the top handset manufacturers, key applications contributing to data usage, and suggestions for targeting marketing efforts.

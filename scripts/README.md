@@ -1,7 +1,5 @@
 ### README: Telecom xDR Dataset Preprocessing
 
----
-
 ## Project Overview
 
 The preprocessor.py script provides utility functions to preprocess a telecom xDR dataset for analysis. The preprocessing steps include handling missing values, managing outliers, converting data units (e.g., bytes to megabytes), and removing irrelevant or redundant columns. The goal is to clean and prepare the dataset for further analysis and machine learning tasks, such as clustering and exploratory data analysis (EDA).
