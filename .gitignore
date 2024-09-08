@@ -2,3 +2,5 @@
 .env
 __pycache__
 preprocessed_telecom_xdr_data.csv
+engagement_data.csv
+experience_data.csv
