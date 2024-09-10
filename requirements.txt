@@ -9,3 +9,4 @@ matplotlib
 seaborn
 scikit-learn (for KMeans clustering)
 plotly (for interactive visualizations)
+streamlit
