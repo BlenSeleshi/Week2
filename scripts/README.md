@@ -108,3 +108,21 @@ Removes rows with outliers in the specified columns based on the Z-score method.
 - **Data Cleaning:** The functions handle missing data, fix outliers, and remove irrelevant columns.
 - **Unit Conversion:** Data volumes can be easily converted from bytes to megabytes.
 - **Outlier Handling:** Two outlier management strategies are implemented — fixing (replacing with the median) and removing (based on Z-score).
+
+Telecom Customer Satisfaction Analysis - customer_satisfaction_app.py
+Overview
+This Streamlit app provides insights into telecom customer satisfaction by analyzing engagement and experience data. It allows you to calculate customer satisfaction scores, identify top satisfied customers, predict satisfaction using a regression model, perform clustering analysis, and explore handset type insights.
+
+Features
+The app consists of the following key features:
+
+Engagement Data Analysis: Displays a summary of user engagement data, including session frequency, total duration, and traffic.
+Experience Data Analysis: Displays a summary of network experience data such as TCP retransmissions, round trip time (RTT), and throughput.
+Engagement Score Calculation: Calculates an engagement score for each customer based on session frequency, total session duration, and total traffic.
+Experience Score Calculation: Calculates an experience score for each customer based on network performance metrics.
+Satisfaction Score Calculation: Merges the engagement and experience data to compute an overall satisfaction score for each customer.
+Top 10 Satisfied Customers: Lists the top 10 customers with the highest satisfaction scores.
+Regression Model: Builds a linear regression model to predict customer satisfaction scores based on engagement and experience scores.
+K-Means Clustering: Performs k-means clustering (k=2) on the engagement and experience scores to group customers into satisfaction clusters.
+Cluster Summary: Displays the average satisfaction and experience scores for each cluster.
+Handset Type Analysis: Provides insights into customer satisfaction based on handset types and identifies the top 10 handset models by satisfaction score.
