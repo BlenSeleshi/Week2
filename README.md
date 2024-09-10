@@ -97,8 +97,6 @@ This project aims to analyze customer experience, engagement, and satisfaction u
 3. For Task 4, ensure that the PostgreSQL database connection is correctly configured in the environment variables.
 4. After execution, review the generated insights, visualizations, and exported data for further use.
 
----
-
 ### **Conclusion**
 
 ## This project provides a comprehensive framework for understanding telecom customer behavior by merging engagement and experience metrics into actionable insights.
