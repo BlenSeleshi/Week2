@@ -13,7 +13,7 @@ engagement_df = pd.read_csv(r'C:\Users\Blen\OneDrive\Desktop\10Academy\Week2\not
 experience_df = pd.read_csv(r'C:\Users\Blen\OneDrive\Desktop\10Academy\Week2\notebooks\experience_data.csv')
 
 engagement_df.rename(columns={'Customer ID': 'MSISDN/Number'}, inplace=True)
-# Title of the App
+# App Title
 st.title("Telecom Customer Satisfaction Analysis")
 
 # Display raw data (optional)
